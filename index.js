@@ -155,7 +155,6 @@ class prompts {
       if (cmd.trim() === '') {
         return "[1;34m[+][1;37m Please Provide a Valid Command.";
       }
-      NOTE: "THIS TOOL IS NOT FOR SALE, KAYA DON'T COMMIT TO SELL THIS LALO NA SA ICON GIVER IF NAKITA KO NA BINEBENTA TO HANAP NA KAYU NG IBANG TOOL NA GAGAMITIN NYO DAMA$$!! 
       if (!/^\d+$/.test(cmd)) {
         return "[1;34m[+][1;37m Please Enter Only Numbers";
       }
