@@ -483,7 +483,7 @@ async function spamShare() {
   await animate(getTimeStamp() + "[1;34m[+][1;37m " + "[1;33mNOTE: [1;32mENSURE THE FACEBOOK POST IS SET TO PUBLIC.");
   await cont();
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mDeveloper: [1;34mBogart. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   let _0xe3da9 = false;
   const {
     url: _0x5e3be4
@@ -644,7 +644,7 @@ async function startShare(_0x30a7d, _0x3acea5, _0x307abb, _0x104f22) {
 async function removeToken() {
   setClear();
   try {
-    await animate("[1;32m ___ ___ ___ _  [1;33mDeveloper: [1;34mBogart. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+    await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
     if (tokens.length <= 0) {
       console.log(getTimeStamp() + "[1;34m[+][1;37m " + "No Tokens Found.");
       await cont();
@@ -706,7 +706,7 @@ function logToken() {
 }
 async function main() {
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mDeveloper: [1;34mBogart. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   logChoices("main");
   const _0x2244c1 = await getCmd();
   if (_0x2244c1 === 1) {
