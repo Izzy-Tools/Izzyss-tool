@@ -425,7 +425,7 @@ async function getTokenCmd() {
 }
 async function tokenManagement() {
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mDeveloper: [1;34mBogart. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   logChoices('tokenmanagement');
   const _0x2e36b1 = await getTokenCmd();
   if (_0x2e36b1 === 1) {
