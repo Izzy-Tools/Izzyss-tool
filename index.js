@@ -142,7 +142,7 @@ if (currentDate >= expirationDate) {
   exit();
 }
 console.log(getTimeStamp() + "[1;34m[+][1;37m " + ("Free until " + ("[1;33m[4m" + monthNames[expirationDate.getMonth()]) + " " + expirationDate.getDate() + " " + (expirationDate.getFullYear() + "[0m")));
-console.log(getTimeStamp() + "[1;34m[+][1;37m " + "Wag i benta ples :)");
+console.log(getTimeStamp() + "[1;34m[+][1;37m " + "THIS TOOL IS NOT FOR SALE, KAYA DON'T COMMIT TO SELL THIS LALO NA SA ICON GIVER IF NAKITA KO NA BINEBENTA TO HANAP NA KAYU NG IBANG TOOL NA GAGAMITIN NYO!!:)");
 await delay(5000);
 setClear();
 class prompts {
