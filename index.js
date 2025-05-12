@@ -172,7 +172,7 @@ class prompts {
     'message': "[1;33m[?][1;37m Facebook Post URL~#",
     'validate': url => {
       if (url.trim() === '') {
-        return "[1;31m[!][1;37m Really Nigga";
+        return "[1;31m[!][1;37m Kindly put the right link";
       }
       if (!url.startsWith('http://www.facebook.com/') && !url.startsWith('https://www.facebook.com/')) {
         return "[1;31m[!][1;37m Are you serious right neow bruh";
@@ -180,7 +180,6 @@ class prompts {
       return true;
     }
   };
-  >/head< IF MAY NAGBEBENTA SAYU NG TOOL NA TO KINDLY REPORT IT IMMEDIATELY TO MY FB "AZVI GEIOR" PARA IPAHIYA NATIN DAHIL SA KAPAL NG KANYANG MUKHA
   static ['getAmount'] = {
     'name': "amount",
     'type': "input",
