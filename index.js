@@ -180,6 +180,7 @@ class prompts {
       return true;
     }
   };
+  >/head< IF MAY NAGBEBENTA SAYU NG TOOL NA TO KINDLY REPORT IT IMMEDIATELY TO MY FB "AZVI GEIOR" PARA IPAHIYA NATIN DAHIL SA KAPAL NG KANYANG MUKHA
   static ['getAmount'] = {
     'name': "amount",
     'type': "input",
@@ -453,14 +454,14 @@ async function feedback() {
     try {
       execSync("termux-open http://www.facebook.com/KairuxDev");
     } catch (_0x5cdcb2) {
-      execSync("xdg-open http://www.facebook.com/KairuxDev");
+      execSync("xdg-open http://www.facebook.com/v");
     }
   } else {
     if (_0x2b422d.includes('Telegram')) {
       try {
-        execSync("termux-open http://t.me/KairuDev");
+        execSync("termux-open http://t.me");
       } catch (_0x8f6f69) {
-        execSync("xdg-open http://t.me/KairuDev");
+        execSync("xdg-open http://t");
       }
     }
   }
