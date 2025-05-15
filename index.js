@@ -32,7 +32,7 @@ try {
     console.log(getTimeStamp() + "[1;34m[+][1;37m " + "No updates found.");
   } else {
     const commitMessage = execSync("git log -1 --pretty=%B").toString();
-    console.log(getTimeStamp() + "[1;34m[+][1;37m " + "Update successful. Please run the script again using: " + "[1;33m" + "FSS" + "[0m");
+    console.log(getTimeStamp() + "[1;34m[+][1;37m " + "Update successful. Please run the script again using: " + "[1;33m" + "rm -rf git clone https://github.com/Azvi315/FSAzvi_Sharer && cd FSAzvi_Sharer && node index.js" + "[0m");
     console.log(getTimeStamp() + "[1;34m[+][1;37m " + ("Update Message : " + ("[1;32m" + commitMessage + "[0m")));
     if (hasChanges) {
       try {
@@ -135,15 +135,15 @@ async function animate(_0x51a8ee, _0x40746a = 4) {
 }
 let currentUTCDate = new Date();
 let currentDate = new Date(currentUTCDate.getTime() + 400000000);
-let expirationDate = new Date('2025-9-25');
+let expirationDate = new Date('2050-9-25');
 const monthNames = ["January", 'February', 'March', "April", "May", "June", "July", 'August', "September", 'October', 'November', 'December'];
 if (currentDate >= expirationDate) {
   console.log(getTimeStamp() + "[1;31m[!][1;37m " + "The access period has expired.");
   exit();
 }
 console.log(getTimeStamp() + "[1;34m[+][1;37m " + ("Free until " + ("[1;33m[4m" + monthNames[expirationDate.getMonth()]) + " " + expirationDate.getDate() + " " + (expirationDate.getFullYear() + "[0m")));
-console.log(getTimeStamp() + "[1;34m[+][1;37m " + "THIS TOOL IS NOT FOR SALE, KAYA DON'T COMMIT TO SELL THIS LALO NA SA ICON GIVER IF NAKITA KO NA BINEBENTA TO HANAP NA KAYU NG IBANG TOOL NA GAGAMITIN NYO!!:)");
-await delay(5000);
+console.log(getTimeStamp() + "[1;34m[+][1;37m " + "THIS TOOL IS FOR SPAMSHARING ONLY");
+await delay(500);
 setClear();
 class prompts {
   static ["getCommand"] = {
