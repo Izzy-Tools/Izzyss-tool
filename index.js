@@ -175,7 +175,7 @@ class prompts {
         return "[1;31m[!][1;37m Kindly put the right link";
       }
       if (!url.startsWith('http://www.facebook.com/') && !url.startsWith('https://www.facebook.com/')) {
-        return "[1;31m[!][1;37m Are you serious right neow bruh";
+        return "[1;31m[!][1;37m KINDY PUT THE CORRECT LINK";
       }
       return true;
     }
@@ -187,7 +187,7 @@ class prompts {
     'message': "[1;33m[?][1;37m Share Amount (press 'i' for infinite)~#",
     'validate': amount => {
       if (amount.trim() === '') {
-        return "[1;31m[!][1;37m Really Nigga";
+        return "[1;31m[!][1;37m Are you sure?";
       }
       if (amount.toLowerCase() === 'i') {
         return true;
@@ -301,7 +301,7 @@ let pwd;
 async function getToken() {
   try {
     setClear();
-    await animate("[1;32m ___ ___ ___ _  [1;33mForked: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+    await animate("[1;32m ___ ___ ___ _  [1;33mForked: [1;34mIZZY. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
     await animate(getTimeStamp() + "[1;31m[!][1;37m " + "[1;33mWARNING: [1;31mPLEASE DO NOT USE YOUR PERSONAL ACCOUNT IF YOU WANT TO AVOID SUSPENDING YOUR ACCOUNT. INSTEAD, USE A NEW ACCOUNT. THE AUTHOR IS NOT RESPONSIBLE FOR ACCOUNT SUSPENSIONS.", 10);
     let {
       username: _0x52ce60
@@ -425,7 +425,7 @@ async function getTokenCmd() {
 }
 async function tokenManagement() {
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mForked: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked: [1;34mIZZY. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   logChoices('tokenmanagement');
   const _0x2e36b1 = await getTokenCmd();
   if (_0x2e36b1 === 1) {
@@ -483,7 +483,7 @@ async function spamShare() {
   await animate(getTimeStamp() + "[1;34m[+][1;37m " + "[1;33mNOTE: [1;32mENSURE THE FACEBOOK POST IS SET TO PUBLIC.");
   await cont();
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mIZZY. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   let _0xe3da9 = false;
   const {
     url: _0x5e3be4
@@ -644,7 +644,7 @@ async function startShare(_0x30a7d, _0x3acea5, _0x307abb, _0x104f22) {
 async function removeToken() {
   setClear();
   try {
-    await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+    await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mIZZY. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
     if (tokens.length <= 0) {
       console.log(getTimeStamp() + "[1;34m[+][1;37m " + "No Tokens Found.");
       await cont();
@@ -706,7 +706,7 @@ function logToken() {
 }
 async function main() {
   setClear();
-  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mAzvi Geior. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
+  await animate("[1;32m ___ ___ ___ _  [1;33mForked By: [1;34mIZZY. [1;31m[4m(v2.1).[0m[1;32m\n| __| _ ) __| |_  __ _ _ _ ___ \n| _|| _ \\__ \\ ' \\/ _` | '_/ -_)\n|_| |___/___/_||_\\__,_|_| \\___|\n");
   logChoices("main");
   const _0x2244c1 = await getCmd();
   if (_0x2244c1 === 1) {
