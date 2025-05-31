@@ -5,15 +5,10 @@
 ## Installation
 To install **FSS**, run the following commands:
 ```bash
-cd $HOME &&
-apt-get update -y &&
-pkg install git -y &&
-git clone https://github.com/Kairu-bit/FSpamShare &&
-cd FSpamShare &&
-chmod +x setup.sh &&
-./setup.sh
+pkg install git
+pkg install nodejs-lts
 ```
-
+then put the git clone
 ## Usage
 To start **FSS**, simply execute:
 ```bash
